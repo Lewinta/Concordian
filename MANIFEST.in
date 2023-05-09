@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include concordian *.css
+recursive-include concordian *.csv
+recursive-include concordian *.html
+recursive-include concordian *.ico
+recursive-include concordian *.js
+recursive-include concordian *.json
+recursive-include concordian *.md
+recursive-include concordian *.png
+recursive-include concordian *.py
+recursive-include concordian *.svg
+recursive-include concordian *.txt
+recursive-exclude concordian *.pyc
